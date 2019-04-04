@@ -4,4 +4,3 @@ nbinteract
 matplotlib
 pandas
 sklearn
-onlykmeans
