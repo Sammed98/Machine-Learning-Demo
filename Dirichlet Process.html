@@ -13160,7 +13160,7 @@ div#notebook {
 <p>$B(\alpha) = \dfrac{\displaystyle \prod_{i=1}^{K}\Gamma(\alpha_i)}{\Gamma(\displaystyle \sum_{i=1}^{K}\alpha_i)}$</p>
 <h1 id="Dirichlet-Process">Dirichlet Process<a class="anchor-link" href="#Dirichlet-Process">&#182;</a></h1><p>Dirichlet processes (after Peter Gustav Lejeune Dirichlet) are a family of stochastic processes whose realizations are probability distributions</p>
 <p>Dirichlet Process is a distribution over distribution parameterized by $\alpha$ (dispersion parameter) and $G$(Base Distribution)</p>
-<p>Dirichlet Process can be demostrated by three models:<br>
+<p>Dirichlet Process can be demonstrated by three models:<br>
 1.<em>Chinese Restaurant Process</em><br>
 2.<em>Polya Urn Process</em><br>
 3.<em>Stick Breaking Process</em><br></p>
@@ -13168,7 +13168,7 @@ div#notebook {
 <p>1.Draw $X_1$ from the base distribution $G$<br>
 2.For $n&gt;1$:<br></p>
 <p>-With the probability $\dfrac{\alpha}{n+\alpha}$ sample $X_n$ from $G$</p>
-<p>-With the probability $\dfrac{n_x}{n+\alpha}$ set $X_x=x,$  n_x := |${$:X_j=x$ and $j&lt;n$| where $|.|$ denotes the number of elements in the set</p>
+<p>-With the probability $\dfrac{n_x}{n+\alpha}$ set $X_x=x,$  $n_x := $ |{$j:X_j=x$ and $j&lt;n$}| where $|.|$ denotes the number of elements in the set</p>
 <h1 id="Properties-of-DP">Properties of DP<a class="anchor-link" href="#Properties-of-DP">&#182;</a></h1><p>Let DP($\alpha$, $G$ ) be the Dirichlet Process with dispersion parameter $\alpha$ and base distribution $G$, then<br><br></p>
 <center>$\mathbf{E}_{DP(\alpha,G)}[x] = \mathbf{E}_G[x]$<br><br>
 As $\alpha \rightarrow \infty,  DP(\alpha,G) \rightarrow G$</center><h1 id="Gibbs-Sampling-for-DPGMM">Gibbs Sampling for DPGMM<a class="anchor-link" href="#Gibbs-Sampling-for-DPGMM">&#182;</a></h1><p><em>Base distribution is Gaussain distribution</em>
@@ -13588,8 +13588,7 @@ $\alpha$ is the dispersion parameter</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Refernces:</p>
-<ol>
+<h3 id="References:">References:<a class="anchor-link" href="#References:">&#182;</a></h3><ol>
 <li><a href="https://github.com/wiseodd/probabilistic-models">https://github.com/wiseodd/probabilistic-models</a></li>
 <li>Jordan Boyd-Graber's course on Machine Learning Spring 2015, CU Boulder  </li>
 </ol>
